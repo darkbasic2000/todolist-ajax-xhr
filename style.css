@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+form {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    background-color: #AFE1AF;
+    color: #000;
+    text-align: center;
+}
+
+.container {
+    border-radius: 5px;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.red {
+    background-color: #e34234;
+}
+
+.blue {
+    background-color: #4169e1;
+}
+
+.done {
+    background-color: #ADD8E6;
+}
+
+.btn {
+    min-width: 120px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-sm {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    margin-left: 5px;
+    min-width: 100px;
+}
+
+.edit {    
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.delete {
+    background-color: #4169e1;
+    padding: 4px 12px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+}
+
+tr {
+    background-color: #FFF;
+    color: #000;
+}
+
+th {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #AFE1AF;
+}
